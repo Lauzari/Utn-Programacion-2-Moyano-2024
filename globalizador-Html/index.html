@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    tr,
+    th,
+    td {
+      
+        border: 1px solid black;
+        padding: 5px;
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        gap: 40px;
+    }
+
+    img {
+        height: 200px;
+        max-width: 200px;
+        border-radius: 10px;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    #sobremi {
+        text-align: left;
+    }
+    
+    .biografia {
+        margin-bottom: 20px;
+    }
+
+    ul {
+        margin-left: 30px;
+    }
+    
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 5px;
+    }
+
+      
+
+</style>
+
+<body>
+    <header>
+        <h1>Maria Laura Moyano</h1>
+    </header>
+    <main>
+       <img src="imagen/191ec571-8e7a-4bbb-b510-294d3fe03c0b.jpg" alt="foto">
+       <div id="sobremi">
+        <div class="sobremi biografia">
+            <h2>Biografia:</h2>
+            <p>Estudiante de Tecnicatura en Programacion.</p>
+            <p>Publicista.</p>
+            <p>Coach Ontologico.</p>
+            
+        </div>
+
+        </div>
+
+        </div>
+        <div class="sobremi intereses">
+            <h2>Intereses:</h2>
+            <ul>
+                <li> Programación</li>
+                <li>Nunca dejar de aprender</li>
+                <li>Hacer feliz a mi famila</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="contacto">
+        <h2>Contacto:</h2>
+        <table>
+            <tr>
+                <th>Mail</th>
+                <th>Telefono de contacto</th>
+                
+            </tr>
+            <tr>
+                <td>mlauramoyano1985@gmail.com</td>
+                <td>3416819218</td>
+                
+            </tr>
+        </table>
+    </div>
+     <div id="redes">
+            <h2>Redes Sociales</h2>
+            <a href="http://github.com/Lauzari" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="http://instagram.com/mlaurimoyano" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="http://facebook.com/lauramoyano" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+
+        <div id="contacto">
+            <fieldset>
+                <legend>Contacto</legend>
+                <form>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Ejemplo: Juan">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ejemplo: Perez">
+                    <label for="mail">Mail</label>
+                    <input type="mail" name="mail" id="mail" placeholder="Ejemplo: juanperez@gmail.com">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribe su mensaje..."></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </fieldset>
+        </div>
+    
+    </main>
+    
+    
+</body>
+</html>
