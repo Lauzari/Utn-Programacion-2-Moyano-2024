@@ -12,7 +12,7 @@ header{
     padding-left: 10px;
     align-items: center;
 
-    background-color: #f07a36;
+    background-color: #be17c6;
 
 }
 
@@ -23,8 +23,8 @@ header{
     padding-left: 10px;
     align-items: center;
 
-    background-color: #ef7943;
-    border-radius: 50%;
+    background-color: inherit;
+    border-radius: 30%;
     width: 300px
 }
 
@@ -61,45 +61,13 @@ h1{
 
 }
 .contenido-ppal {
-background-color: bisque;
+background-color: #ecacec;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 30px;
 box-sizing: border-box;
 }
-.formulario-contacto{
-    width: 40%;
-   
-}
-.contacto ,input{
- width: 100%;
-box-sizing: border-box;
-padding:6px 12px;
-border-style: groove;
-border-left: 2px solid bisque;
-background-color: rgb(240, 228, 213);
-box-shadow: 0px 0px 4px #0007;
-}
 
-.contacto,textarea{
-    border-style: groove;
-border-left: 4px solid bisque;
-background-color: rgb(240, 228, 213);
-box-shadow: 0px 0px 4px #0007;
-box-sizing: border-box;
 
-}
-.contacto,button{
-    cursor: pointer;
-    align-items: end;
-    box-sizing: 2px;
-    padding: 10px;
-    border: #000;
-    border-radius: 5px 5px 5px 5px;
-    background-color:rgb(212, 173, 99); var(--primary-color);
-    font-size: 1.4rem;
-    box-shadow: 0px 0px 4px #0007;
-
-}
 
 .articles {
     width: 65%;
@@ -108,55 +76,83 @@ box-sizing: border-box;
 
     
 
-.img{
-    border-radius: 50%;
-    border-width: 5px;
-    box-shadow: #efb343;
+img{
+    border-radius: 30%;
+    box-shadow: #5c054b;
+    width: 400px;
 }
-.comentarios {
-    position: relative;
-    top: 5px;
-    padding-bottom: 20px;
-    display: flex;
-    text-align: left;
-    font-size: 30px;
+.contacto{
+    width: 40%;
+    font-size: 20px;
+   
 }
-textarea#comentarios {
+input{
+    font-size: 10px;
+ width: 100%;
+box-sizing: border-box;
+padding:6px 12px;
+border-style: groove;
+border-left: 4px solid bisque;
+background-color: rgb(240, 228, 213);
+box-shadow: 0px 0px 4px rgba(201, 196, 196, 0.467);
+}
+label{
+    font-size: 15px;
+}
+
+textarea{
+border-style: groove;
+width: 100%;
+background-color: rgb(240, 228, 213);
+box-shadow: 0px 0px 4px rgba(214, 204, 204, 0.467);
+box-sizing: border-box;
+
+}
+button{
+    cursor: pointer;
+    align-items: end;
+    box-sizing: 20px;
+    padding: 10px;
+    border: #a9a5a5;
+    border-radius: 5px 5px 5px 5px;
+    background-color:rgb(240, 215, 169); var(--primary-color);
+    box-shadow: 0px 0px 4px rgba(164, 161, 161, 0.467);
+
+}
+.contenedor-comentarios  {
+    padding: 5px;
+    box-sizing: 23px;
+}
+P{
+    font-size: 25px;
+}
+
+textarea{
     margin: top;
     padding: 5px;
     border-radius: 8px;
     min-width: 90%;
     min-height: 100px;
-  
+   position-anchor: ;
     background-color:rgb(242, 231, 218);
     border: 0;
+    box-sizing: border-box;
 }
 
-.contacto ,h5{
- font-size: 25px;
- background-color: bisque;
- 
+.fecha{
+    font-size: 13px;
 }
-.contacto,button{
-    background-color:  bisque;
-    padding: 10px;
-    min-height: 100px;
-    margin-top: 10px;
-    cursor: pointer;
-    border:beige;
-    border-radius: 5px 5px 5px 5px;
-    align-items: end;
-    font-size: 1.4rem;
 
-   
-    border: 0;
-}
-.formulario-contacto,textarea{
-    position: relative;
-    top: 20px;
-    padding-bottom: 20px;
-    display: block;
-    text-align: left;
-    font-size: 20px;
+.footer p{
+    font-size: 12px;
+} 
+    
+    
+    
+    
+    
+    
 
-}
+
+
+
