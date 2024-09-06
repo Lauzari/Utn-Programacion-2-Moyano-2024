@@ -10,82 +10,67 @@
 
 <body>
     <main class="contenido-ppal">
-    <header id="home">
+    <header class="barra-ppal">
         
         
         <img src="img/456b0a2a5ab27ac3b0b995ae53da749e.jpg" alt="logoGB">
         
         <h1>Mundo Gatuno</h1>
-        <!--<nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Adopción</a></li>
-                <li><a href="#">Consejos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>-->
+       
         <div class="contenedor-buscador">
             <input type="text" placeholder="Buscar...">
             <button type="submit">Buscar</button>
         </div>
     </header>
-
-    <!--<main class="contenido-ppal">-->
-     <div>
-            <article>
-            <h4>Categorías</h4>
+   
+     <div class="categorias">
             <ul>
                 <li><a href="#">Gatitos</a></li>
+                <li><a href="#">Recomendaciones</a></li>
+                <li><a href="#">Habitat</a></li>
                 <li><a href="#">Salud</a></li>
-                <li><a href="#">Juguetes</a></li>
-           <!---- </ul>
-            <span class="fecha">20-08-2024</span>
-            <span class="comentarios">Comentarios:</span>
-            <div class="contenedor-comentario">
-                <textarea name="comentarios" id="comentarios" placeholder="Comente aquí..."></textarea>
-                <button type="submit">
-                    <i class="fas fa-paper-plane"></i>
-                </button>-->
+                <li><a href="#">Nosotros</a></li>
+           </ul>
             </div>
-            </article>
-<hr>
+          
             <div>
-            <article>
+        
             <h2>Últimas Noticias Gatunas</h2>
-           
+            <div class="nota">
             <P>Gracias a una encuesta realizada por TNS Gallup, empresa estadistica nro uno en Argentina, hoy podemos concluir que la tasa de adopcion subio en el ultimo año un 75%, y la tasa de compra de razas segun el informe publicado este ultimo Martes 18 ha bajado un 18%, esto habla de la responsabilidad que estamos adquiriendo cmo sociedad y la empatia creciente dia a dia hacia aquellos que mas necesitan nuestra ayuda.</P>
             <img src="img/kittens-3535404_640.jpg" alt="Gatitos pequeños">
-            <ul>
+           <!--<ul>
                 <li><a href="#">Cómo elegir el mejor alimento para tu gato</a></li>
                 <li><a href="#">Los 10 juguetes favoritos de los gatos</a></li>
-            </ul>
+            </ul>-->
  
              </div>
-             </article>
-             <div class="image">
-                <article>
-                    <h3>El gato naranja rebelde por naturaleza?</h3>
-                
-                <img src="img/gatos_adorable-gatito-gafas-sol-820x394.jpg " alt="Gato canchero naranja"width="600" height="350">
+             <h2>El gato naranja rebelde por naturaleza?</h2>
+               
+             <h3>Desde Garfield a Enfant terrible de la manada:</h3>
+             <div class="nota">
+                 
               
+                <img class="naranja" src="img/gatos_adorable-gatito-gafas-sol-820x394.jpg " alt="Gato canchero naranja"width="600" height="350">
               
-             
-               <p><b>Desde Garfield a Enfant terrible de la manada:</b><br> Un estudio reciente de la universidad de Oxford revelo que esta raza ( catuus naranjus rayaduis) se ve fuertemente influenciada por el ejemplo del famoso influencer "Garfield",ya que al ver la serie repetidas veces los seguidores comienzan a imitar comportamientos de dicha estrella volviendose mas rebeldes asi como mas inteligentes(propio de su raza) concluyendo que por medio de "identificacion de manada" con dicho influencer,estos felinos logran potenciar su comportamiento rebelde y desafiante tanto hacia sus Karens como hacia sus pares felinos. </p>
-            </article>
-            </div>
-            <div>
+               <p> Un estudio reciente de la universidad de Oxford revelo que esta raza ( catuus naranjus rayaduis) se ve fuertemente influenciada por el ejemplo del famoso influencer "Garfield",ya que al ver la serie repetidas veces los seguidores comienzan a imitar comportamientos de dicha estrella volviendose mas rebeldes asi como mas inteligentes(propio de su raza) concluyendo que por medio de "identificacion de manada" con dicho influencer,estos felinos logran potenciar su comportamiento rebelde y desafiante tanto hacia sus Karens como hacia sus pares felinos. </p>
     
-                    <h4>No sabes con que entretener a tu michi?</h4>
-                    <img src="https://media.ambito.com/p/67e1cdc69057c1863724eddcd8269faa/adjuntos/239/imagenes/040/456/0040456799/gatos-portadajpg.jpg" alt="Gatitos pequeños">
-                    <p>
-                        Adorables y juguetones por naturaleza pero a veces se nos acaban las ideas, aqui te dejamos un link con un top 10 creado por expertos para sumarte ideas sobre los mejores juguetes.
-                    </p><a href="#">Los 10 juguetes favoritos de los gatos</a> 
-           
              </div>
+
+             <h3>No sabes con que entretener a tu michi?</h3>
+            <div class="nota">
+                
+                    <img class ="chiquitos" src="https://media.ambito.com/p/67e1cdc69057c1863724eddcd8269faa/adjuntos/239/imagenes/040/456/0040456799/gatos-portadajpg.jpg" alt="Gatitos pequeños">
+                    <p>
+                        Adorables y juguetones por naturaleza pero a veces se nos acaban las ideas, aqui te dejamos un link con <a href="#">los 10 juguetes favoritos de los gatos</a> creado por expertos para sumarte ideas sobre los mejores juguetes.
+                    </p>
+                   
+             </div>
+           
     
 
              <div class="contacto">
-                <p>Contactate con nosotros</p>
+                <p><b>Contactate con nosotros : </b></p>
                 <form>
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre" placeholder="nombre">
@@ -97,10 +82,9 @@
                     <textarea name="texto" placeholder="Escribe tu mensaje..."></textarea>
                     <button type="submit">Enviar</button>
                 </form>
-            </div>
-            <div class="contenedor-comentarios">
+          
                 <p><span class="dejacomentario" > Dejanos tu comentario ...</span></p>
-                <span class="fecha">20-08-2024</span>
+                <input type="date">
               
                 <textarea name="comentarios" id="comentarios" placeholder="Comente aquí..."></textarea>
                 <button type="submit">Enviar</button>
